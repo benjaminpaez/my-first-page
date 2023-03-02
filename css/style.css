@@ -145,17 +145,22 @@ p,a{
     .header{
         background-attachment: fixed;
         height: auto;
-        
     }
     .burger{
         display: none;
     }
+    .ocult{
+        display: inline;
+    }
+}
+
+@media (min-width: 768px){
     .navegation{
         position: relative;
         top: unset;
         width: auto;
         background-color: unset;
-        animation: unset                                                                                                                                                    ;
+        animation: unset;                                                                                                                                                  ;
     }
     .navegation a{
         display: inline;
